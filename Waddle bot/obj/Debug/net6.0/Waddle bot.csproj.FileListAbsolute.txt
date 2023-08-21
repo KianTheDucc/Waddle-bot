@@ -1,0 +1,50 @@
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Waddle bot.exe
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Waddle bot.deps.json
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Waddle bot.runtimeconfig.json
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Waddle bot.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Waddle bot.pdb
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\ConcurrentCollections.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.Commands.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.Core.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.Interactions.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.Rest.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.Webhook.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Discord.Net.WebSocket.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.CommandsNext.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.Interactivity.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.Lavalink.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.SlashCommands.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\DSharpPlus.VoiceNext.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Emzi0767.Common.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\System.Interactive.Async.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\System.Linq.Async.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\System.Reactive.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\runtimes\win-x64\native\libopus.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\runtimes\win-x64\native\libsodium.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\runtimes\win-x86\native\libopus.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\runtimes\win-x86\native\libsodium.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.csproj.AssemblyReference.cache
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle_bot.Resource1.resources
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.csproj.GenerateResource.cache
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.AssemblyInfoInputs.cache
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.AssemblyInfo.cs
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.csproj.CoreCompileInputs.cache
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.csproj.CopyComplete
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\refint\Waddle bot.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.pdb
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\Waddle bot.genruntimeconfig.cache
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\obj\Debug\net6.0\ref\Waddle bot.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Lavalink4NET.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\Lavalink4NET.DSharpPlus.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\ChatGPT.Net.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\SocketIOClient.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\kiant\source\repos\Waddle bot\Waddle bot\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
