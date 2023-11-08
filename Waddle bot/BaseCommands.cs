@@ -52,18 +52,6 @@ namespace Waddle_bot
         {
             await ctx.RespondAsync("https://tenor.com/view/bubu-dudu-stickers-gif-26502165");
         }
-        [Command("mutecaezar")]
-        public async Task muteCaezar(CommandContext ctx)
-        {
-            await ctx.Message.DeleteAsync();
-            await ctx.Guild.GetMemberAsync(361194147224223744).Result.SetMuteAsync(true);
-        }
-        [Command("unmutecaezar")]
-        public async Task unmuteCaezar(CommandContext ctx)
-        {
-            await ctx.Message.DeleteAsync();
-            await ctx.Guild.GetMemberAsync(295110922890903566).Result.SetMuteAsync(false);
-        }
         [Command("nessie")]
         public async Task findNessie(CommandContext ctx)
         {
@@ -88,23 +76,23 @@ namespace Waddle_bot
             await ctx.Channel.SendMessageAsync("aww man");
         }
         [Command("chatgpt")]
-        public async Task ChatGPTCommand(CommandContext ctx, [RemainingText] string prompt, [RemainingText] string conversationId)
+        public async Task ChatGPTCommand(CommandContext ctx, [RemainingText] string prompt)
         {
-            await ctx.RespondAsync("Waiting for GPT Response...");
+            await ctx.RespondAsync("No.");
+            //await ctx.RespondAsync("Waiting for GPT Response...");
 
-            ChatGptClientConfig gptConfig = new ChatGptClientConfig
-            {
-                SessionToken = Resource1.SessionToken, 
-                AccountType = ChatGPT.Net.Enums.AccountType.Free
-            };
-            ChatGpt chat = new ChatGpt();
-            await chat.WaitForReady();
-            var chatGptClient = await chat.CreateClient(gptConfig);
+            //ChatGptClientConfig gptConfig = new ChatGptClientConfig
+            //{
+            //    SessionToken = Resource1.SessionToken, 
+            //    AccountType = ChatGPT.Net.Enums.AccountType.Free
+            //};
+            //ChatGpt chat = new ChatGpt();
+            //await chat.WaitForReady();
+            //var chatGptClient = await chat.CreateClient(gptConfig);
 
-            var convoId = conversationId;
-            var response =  chatGptClient.Ask(prompt, convoId).Result;
-            await ctx.TriggerTypingAsync();
-            await ctx.RespondAsync(response);
+            //var response =  chatGptClient.Ask(prompt).Result;
+            //await ctx.TriggerTypingAsync();
+            //await ctx.RespondAsync(response);
         }
         [Command("DLM")]
         public async Task DLMCommand(CommandContext ctx)
@@ -114,6 +102,42 @@ namespace Waddle_bot
             Task<IReadOnlyList<DiscordMessage>> LastMessage = ctx.Channel.GetMessagesBeforeAsync(ctx.Message.Id, 1);
             await LastMessage.Result.First().DeleteAsync();
         }
-    
+        [Command("bambambam")]
+        public async Task DuckSongCommand(CommandContext ctx)
+        {
+            await ctx.TriggerTypingAsync();
+            await ctx.RespondAsync("A duck walked up to a lemonade stand\r\nAnd he said to the man runnin' the stand\r\n\"Hey! [(bam bam bam)] Got any grapes?\"\r\nThe man said: \"No, we just sell lemonade\r\nBut it's cold, and it's fresh, and it's all home-made!\r\nCan I get you a glass?\"\r\nThe duck said, \"I'll pass.\"\r\nThen he waddled away - waddle waddle");
+        }
+        [Command("cheeseballs")]
+        public async Task CheeseballsCommand(CommandContext ctx)
+        {
+            await ctx.RespondAsync("https://tenor.com/view/alvin-and-the-chipmunks-theodore-we-can-play-monopoly-monopoly-board-games-gif-21853083");
+        }
+        [Command("CheeseBallDoggo")]
+        [Description("CHEEEEEEEZBALLLLSSSSSSS")]
+        [Aliases("CBD")]
+        public async Task CheeseBallDoggoCommand(CommandContext ctx)
+        {
+            await ctx.RespondAsync("https://media.discordapp.net/attachments/1164001227042992191/1169430673157783593/IMG_0885.gif?ex=6555602f&is=6542eb2f&hm=a3c7a6c566becd7eabe2ca467dcb2d0f18a2f076f1b51072dea50f7aa3742cd4&=");
+        }
+        [Command("LosDrogas")]
+        [Description("DRUUUUUGS")]
+        [Aliases("drugs", "Heroin")]
+        public async Task DrugsCommand(CommandContext ctx)
+        {
+            await ctx.RespondAsync("https://media.discordapp.net/attachments/1164001227042992191/1169433741920321618/IMG_0886.gif?ex=6555630b&is=6542ee0b&hm=23861b760cf11dc378f450778a5c082f749a23bbe63f4f7ea9f2434bcc2ac178&=");
+        }
+        [Command("florenwins")]
+        [Description("Floren moment")]
+        public async Task getRealCommand(CommandContext ctx)
+        {
+            await ctx.RespondAsync("https://tenor.com/view/beat-saber-get-real-gaming-funny-beating-sabers-gif-6919461099124524561");
+        }
+        [Command("stella")]
+        [Description("Stella when minors")]
+        public async Task StellaCommand(CommandContext ctx)
+        {
+            await ctx.RespondAsync("https://media.discordapp.net/attachments/949085464978145283/1105147550429872179/s.gif");
+        }
     }
 }

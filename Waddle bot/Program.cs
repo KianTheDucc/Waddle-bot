@@ -36,7 +36,7 @@ public class Program
     {
         discord = new DiscordClient(new DiscordConfiguration()
         {
-            Token = Resource1.Token,
+            Token = Resource1.Token2,
             TokenType = TokenType.Bot,
             Intents =
             DiscordIntents.AllUnprivileged
@@ -69,7 +69,7 @@ public class Program
     var endpoint = new ConnectionEndpoint
     {
         Hostname = "127.0.0.1", // From your server configuration.
-        Port = 4392 // From your server configuration
+        Port = 4393 // From your server configuration
     };
 
     var lavalinkConfig = new LavalinkConfiguration
@@ -94,6 +94,7 @@ public class Program
         discord.ChannelDeleted += LogHandler.ChannelDeletedHandler;
 
         discord.GuildMemberAdded += LogHandler.MemberJoinedHandler;
+        discord.MessageReactionAdded += LogHandler.MessageReactionAdded;
 
         var lavalink = discord.UseLavalink();
 
@@ -106,6 +107,8 @@ public class Program
         commands.RegisterCommands<Tickets>();
 
         commands.RegisterCommands<Quotes>();
+
+        commands.RegisterCommands<ReactionRoles>();
 
         await discord.ConnectAsync();
     await lavalink.ConnectAsync(lavalinkConfig);

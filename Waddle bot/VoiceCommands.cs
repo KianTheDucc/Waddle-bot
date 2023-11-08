@@ -44,7 +44,7 @@ namespace Waddle_bot
             }
             else
             {
-                await Task.Delay(15000);
+                await Task.Delay(200000);
                 if (conn.CurrentState.CurrentTrack == null)
                 {
                     await conn.DisconnectAsync();
@@ -62,7 +62,7 @@ namespace Waddle_bot
                 var node = LavaLink.ConnectedNodes.Values.First();
                 var conn = await GetLavalinkConnection(ctx);
 
-                var loadResult = await node.Rest.GetTracksAsync(search);
+                var loadResult = await node.Rest.GetTracksAsync(search, LavalinkSearchType.Plain);
 
                 if (loadResult.LoadResultType == LavalinkLoadResultType.LoadFailed
                     || loadResult.LoadResultType == LavalinkLoadResultType.NoMatches)

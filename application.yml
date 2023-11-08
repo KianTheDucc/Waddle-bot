@@ -1,5 +1,5 @@
 server: # REST and WS server
-  port: 4392
+  port: 4393
   address: 127.0.0.1
 spring:
   main:
